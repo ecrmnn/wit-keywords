@@ -1,0 +1,32 @@
+{
+  "name": "wit-keywords",
+  "version": "1.0.0",
+  "description": "Mass push values to keyword based entities on Wit.ai",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecrmnn/wit-keywords"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Daniel Eckermann",
+    "email": "danieleckermann@gmail.com",
+    "url": "http://danieleckermann.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecrmnn/wit-keywords/issues"
+  },
+  "homepage": "https://github.com/ecrmnn/wit-keywords",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "dotenv": "^4.0.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "axios": "^0.15.3"
+  }
+}
